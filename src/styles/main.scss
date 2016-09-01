@@ -1,0 +1,117 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 60em;
+  padding: 2em;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.lhs {
+    width: 73%;
+    float: left;
+}
+
+.rhs {
+    width: 25%;
+    float: right;
+}
+
+.header {
+    background: #777;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 1px solid #333;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.player-list {
+    padding: 0;
+}
+
+.player {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+.player-score {
+    float: right;
+}
+
+.player-input input {
+    font-size: 20px;
+    padding: 4px;
+    display: block;
+    font-weight: 300;
+    width: 100%;
+}
+
+.match-reporter h2, .player-input h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.match-reporter, .player-input {
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    margin-bottom: 2em;
+    padding: 15px;
+    box-shadow: 0 0 10px #ccc, 0 5px 25px #ccc;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: .5em;
+    font-size: 20px;
+    background: #a7a7a7;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 0 2px 2px rgba(0,0,0,.05), 0 1px 0 rgba(0,0,0,.05);
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.button:hover {
+    background: #b7b7b7;
+}
+
+.player-select, .score-select {
+    display: inline-block;
+    height: 24px;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.player-select {
+    width: 74%;
+    margin-right: 1%;
+}
+.score-select {
+    width: 24%;
+    margin-left: 1%;
+}
+
+.vs-text {
+    margin: .5em 0;
+    text-align: center;
+}
