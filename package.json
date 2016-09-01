@@ -1,12 +1,12 @@
 {
-  "name": "elm-webpack-starter",
-  "description": "Webpack setup for writing Elm apps",
+  "name": "elo-football-tracker",
+  "description": "Elo football tracker",
   "version": "0.6.2",
   "license": "MIT",
-  "author": "Peter Morawiec",
+  "author": "Benny Hallett",
   "repository": {
     "type": "git",
-    "url": "https://github.com/moarwick/elm-webpack-starter"
+    "url": "https://github.com/bennyhallett/elo"
   },
   "scripts": {
     "start": "webpack-dev-server --hot --inline --content-base src/",
